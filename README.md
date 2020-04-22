@@ -89,7 +89,7 @@ And with the following:
 >
 >do
 >
->./fastq-dump --split-files /Users/..../sratoolkit.2.10.5-mac64/ncbi/public/sra/SRR62673$i.sra -I --gzip --outdir /Volumes/...../ncbi/public/fastq/>GSE106670
+>./fastq-dump --split-files /Users/..../sratoolkit.2.10.5-mac64/ncbi/public/sra/SRR62673$i.sra -I --gzip --outdir /Volumes/...../ncbi/public/fastq/GSE106670
 >
 >done
 
