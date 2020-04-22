@@ -73,7 +73,7 @@ This will result in 2 fastq files downloaded in your selected folder on the exte
 
 [Here](https://ncbi.github.io/sra-tools/fastq-dump.html) you can find the different options of the fastq-dump tool.
 
-Sometimes, you need to retrieve may SRR runs from the same SRA file. In that case, it is worth to create a small program to do it automatically. In the example below, I am retrieving the sra files from SRR6267329 to SRR6267370 and downloading them in my default "public" folder:
+Sometimes, you need to retrieve many SRR runs from the same SRA file. In that case, it is worth to create a small program to do it automatically. In the example below, I am retrieving the sra files from SRR6267329 to SRR6267370 and downloading them in my default "public" folder:
 
 >for (( i = 29; i <= 70; i++ ))
 >
