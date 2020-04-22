@@ -10,11 +10,11 @@
 
 The Sequence Read Archive SRA stores raw data in binary files, and provides a toolkit to extract that data into fastq files. Data in the SRA is organized into a series of metadata tables. For more information about the definition of each SRA accession prefix, see [here] (https://www.ncbi.nlm.nih.gov/books/NBK56913/#search.what_do_the_different_sra_accessi). The runs (SRR) are where the actual DNA sequences reside and are what you want to download from NCBI, using the [SRA toolkit] (http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
 
-###Where to find SRR accession codes
+### Where to find SRR accession codes
 Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relation”, you can find the SRA project number SRP. Click on it, and you have a list of the different samples. You can select the ones you are interest to downlowad the runs from and send them to run selector, from there you can retrieve their SRR code.
 
 
-###Download the Toolkit from the SRA website
+### Download the Toolkit from the SRA website
 
 * If you are using a web browser, you can downlad the toolkit [here] (https://www.ncbi.nlm.nih.gov/Traces/sra/?view=software)
 
@@ -22,7 +22,7 @@ Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relati
 > ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current
 
 
-###Unpack the Toolkit
+### Unpack the Toolkit
 * For Linux, use tar:
 > tar -xzf sratoolkit.current-centos_linux64.tar.gz
 
@@ -31,7 +31,7 @@ Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relati
 * For Windows, either use an archiving and compression utility (e.g., Winzip, 7-Zip, etc.), or simply double-click on the .zip file and drag the 'sratoolkit...' folder to the preferred install location.
 
 
-###Configure and Test the Toolkit
+### Configure and Test the Toolkit
 
 The Toolkit comes with a default configuration that will dowload the repository into the default location which is:
 
