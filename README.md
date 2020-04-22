@@ -44,7 +44,7 @@ From the "bin' subdirectory of the sratoolkit folder, run the following command:
 
 > ./vdb-config -i
 
-A videoscreen will open, where you can navigate by typing the letters in red. Go to Cache. Enable local file caching should be thick by default. The location of the user-repository is set to default (see above). You can change it by navigating to the target directory, or if you know the path, you can select Goto and type the path directly.
+A videoscreen will open, where you can navigate by typing the letters in red. Go to Cache. Enable local file caching should be tick by default. The location of the user-repository is set to default (see above). You can change it by navigating to the target directory, or if you know the path, you can select Goto and type the path directly.
 In the example below, I set up my user-repository to a "public" subdirectory of the "ncbi" directory in the sratoolkit folder: 
 
 > /Users/...../sratoolkit.2.10.5-mac64/ncbi/public/
