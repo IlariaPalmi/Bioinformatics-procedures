@@ -50,7 +50,7 @@ In the example below, I set up my user-repository to a "public" subdirectory of 
 > /Users/...../sratoolkit.2.10.5-mac64/ncbi/public/
 
 
-To test the toolikt, go to the "bin" subdirectory of the toolkit and dowload the SRR390728 (as example) run files the following command:
+To test the toolikt, go to the "bin" subdirectory of the toolkit and dowload the SRR390728 (as example) run files using the following command:
 
 * Linux and OS X users:
 > ./fastq-dump -X 5 -Z SRR390728
