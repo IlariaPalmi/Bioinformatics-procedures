@@ -59,7 +59,7 @@ To test the toolikt, go to the "bin" subdirectory of the toolkit and dowload the
 >fastq-dump.exe -X 5 -Z SRR390728
 
 
-If it works, you can start using it. Once you found the SRR accession codes (see above), I would sugget to prefetch the sra files to you local repository, but to extract the fastq files to an external server, in order to avoid space problems.
+If it works, you can start using it. Once you found the SRR accession codes (see above), I would suggest to prefetch the sra files to you local repository, but to extract the fastq files to an external server, in order to avoid space problems.
 From the "bin' subdirectory of the sratoolkit folder, run the following command:
 
 >./prefetch SRR6294675
