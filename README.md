@@ -16,7 +16,7 @@ Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relati
 
 ### Download the Toolkit from the SRA website
 
-* If you are using a web browser, you can downlad the toolkit [here] (https://www.ncbi.nlm.nih.gov/Traces/sra/?view=software)
+* If you are using a web browser, you can downlad the toolkit [here](https://www.ncbi.nlm.nih.gov/Traces/sra/?view=software)
 
 *	If you are working from a command line interface: 
 > ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current
