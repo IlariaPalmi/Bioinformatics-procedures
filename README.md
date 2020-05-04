@@ -19,12 +19,12 @@ Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relati
 * If you are using a web browser, you can downlad the toolkit [here](https://www.ncbi.nlm.nih.gov/Traces/sra/?view=software)
 
 *	If you are working from a command line interface: 
-> ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current
+>ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current
 
 
 ### Unpack the Toolkit
 * For Linux, use tar:
-> tar -xzf sratoolkit.current-centos_linux64.tar.gz
+>tar -xzf sratoolkit.current-centos_linux64.tar.gz
 
 * For Mac OS X, double-click on the .tar.gz file and the Archive Utility will unpack it. Alternatively, command-line tar will also work (see Linux example above)
 
@@ -42,31 +42,31 @@ The Toolkit comes with a default configuration that will dowload the repository 
 You need to create such directory and it needs to be empty.
 From the "bin' subdirectory of the sratoolkit folder, run the following command:
 
-> ./vdb-config -i
+>./vdb-config -i
 
 A videoscreen will open, where you can navigate by typing the letters in red. Go to Cache. Enable local file caching should be thick by default. The location of the user-repository is set to default (see above). You can change it by navigating to the target directory, or if you know the path, you can select Goto and type the path directly.
 In the example below, I set up my user-repository to a "public" subdirectory of the "ncbi" directory in the sratoolkit folder: 
 
-> /Users/...../sratoolkit.2.10.5-mac64/ncbi/public/
+>/Users/...../sratoolkit.2.10.5-mac64/ncbi/public/
 
 
 To test the toolikt, go to the "bin" subdirectory of the toolkit and dowload the SRR390728 (as example) run files the following command:
 
 * Linux and OS X users:
-> ./fastq-dump -X 5 -Z SRR390728
+>./fastq-dump -X 5 -Z SRR390728
 
 * Windows users:
-> fastq-dump.exe -X 5 -Z SRR390728
+>fastq-dump.exe -X 5 -Z SRR390728
 
 
 If it works, you can start using it. Once you found the SRR accession codes (see above), I would sugget to prefetch the sra files to you local repository, but to extract the fastq files to an external server, in order to avoid space problems.
 From the "bin' subdirectory of the sratoolkit folder, run the following command:
 
-> ./prefetch SRR6294675
+>./prefetch SRR6294675
 
 This will result in the SRR6294675.sra file to be downloaded in your local repository (the "public" subdirectory of the "ncbi" directory in the sratoolkit folder in the example above)
 
-> ./fastq-dump --split-files /Users/...../sratoolkit.2.10.5-mac64/ncbi/public/sra/SRR6294675.sra -I --gzip --outdir /Volumes/...../ncbi/public/fastq
+>./fastq-dump --split-files /Users/...../sratoolkit.2.10.5-mac64/ncbi/public/sra/SRR6294675.sra -I --gzip --outdir /Volumes/...../ncbi/public/fastq
 
 This will result in 2 fastq files downloaded in your selected folder on the external server.
 
