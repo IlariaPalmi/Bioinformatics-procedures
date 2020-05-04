@@ -95,3 +95,4 @@ And with the following:
 
 I am retrieving the fastq files from SRR6267329 to SRR6267370 and downloading them on the selected folder on the external server.
 
+
