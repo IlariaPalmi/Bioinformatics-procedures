@@ -8,7 +8,7 @@
 
 [Robs manual for the computational genomics and bioinformatics class](https://linsalrob.github.io/ComputationalGenomicsManual/Databases/SRA.html)
 
-The Sequence Read Archive SRA stores raw data in binary files, and provides a toolkit to extract that data into fastq files. Data in the SRA is organized into a series of metadata tables. For more information about the definition of each SRA accession prefix, see [here] (https://www.ncbi.nlm.nih.gov/books/NBK56913/#search.what_do_the_different_sra_accessi). The runs (SRR) are where the actual DNA sequences reside and are what you want to download from NCBI, using the [SRA toolkit] (http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
+The Sequence Read Archive SRA stores raw data in binary files, and provides a toolkit to extract that data into fastq files. Data in the SRA is organized into a series of metadata tables. For more information about the definition of each SRA accession prefix, see [here](https://www.ncbi.nlm.nih.gov/books/NBK56913/#search.what_do_the_different_sra_accessi). The runs (SRR) are where the actual DNA sequences reside and are what you want to download from NCBI, using the [SRA toolkit](http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
 
 ### Where to find SRR accession codes
 Go to GEO, and find the dataset of interest (GEO accession:GSE…). In “Relation”, you can find the SRA project number SRP. Click on it, and you have a list of the different samples. You can select the ones you are interest to downlowad the runs from and send them to run selector, from there you can retrieve their SRR code.
